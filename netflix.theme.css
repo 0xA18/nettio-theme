@@ -1,0 +1,249 @@
+/**
+    * @name Netflix
+    * @description Based on Neflix's UI
+    * @version 0.1
+    * @updateUrl https://raw.githubusercontent.com/0xA18/nettio-theme/refs/heads/main/media/update.txt
+    * @author a18 corp.
+    */
+
+:root{
+    --red: #E50914;
+    --primary-accent-color: #fff!important;
+    --border-radius: 0!important;
+    --secondary-accent-color: #fff!important;
+}
+@font-face {
+    font-family: netflix-sans;
+    src: url("https://github.com/0xA18/nettio-theme/raw/refs/heads/main/media/NetflixSansMedium.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: netflix-sans;
+    src: url("https://github.com/0xA18/nettio-theme/raw/refs/heads/main/media/NetflixSansBold.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: netflix-sans;
+    src: url("https://github.com/0xA18/nettio-theme/raw/refs/heads/main/media/NetflixSansLight.otf") format("opentype");
+    font-weight: lighter;
+}
+
+*{
+    font-family: netflix-sans;
+}
+
+.horizontal-nav-bar-ji5GB, .nav-menu-container-Pl25j, .modal-dialog-background-vZpB_, .modal-dialog-container-DZMKq, .dropdown-MWaxp, .vertical-nav-bar-qGRze, .board-content-nPWv1, .catalog-container-VNK_T, .library-content-PgX4O, .content-wBwrQ, .settings-content-co5eU, .background-image-layer-kk_WI, .background-image-9zToE, .meta-preview-container-CoWs5, .router-_65XU{
+    background-color: black!important;
+    box-shadow: none!important;
+}
+
+.poster-image-NiV7O, .poster-image-layer-KimPZ, .poster-container-qkw48, .poster-shape-poster-LKBza{
+    border-radius: 0;
+}
+
+.animation-fade-in{
+    animation: none;
+}
+
+.button-container-zVLH6, .label-BCz2f, .button-container-dYhs0.selected, .nav-tab-button-tW6qT{
+    color: #fff;
+}
+
+.icon-TzPrK{
+    fill: #fff!important;
+}
+
+.title-bar-container-1Ba0x, .title-label-VnEAc, .play-icon-QmEEA, .play-icon-outer-r3iKR, .play-icon-background-Uazjh{
+    display: none;
+    height: 0!important;
+    font-size: 0;
+    visibility: hidden;
+}
+
+.title-container-Mkwnq{
+    font-weight: bold!important;
+}
+
+.progress-bar-background-kyRgp, .progress-bar-layer-LVYYi, .progress-bar-background-kyRgp{
+    float: bottom;
+    right: 0;
+    bottom: 0!important;
+    left: 0!important;
+    width: 100%;
+    border-radius: 0!important;
+    /* background-color: #ffffff00!important; */
+
+}
+
+.progress-bar-w1rNN, .progress-bar-XrEBL{
+    background-color: var(--red)!important;
+    border-color: var(--red)!important;
+    color: var(--red)!important;
+    outline-color: var(--red)!important;
+    opacity: 1!important;
+    z-index: 10;
+}
+
+.button-DNmYL, .button-container-zVLH6, .selected-S7SeK{
+    border: none!important;
+}
+
+.button-DNmYL::selection{
+    border: none!important;
+}
+
+.button-container-zVLH6{
+    /* color: black!important; */
+}
+
+/* .add-url-fEacA{
+    background-color: #fff!important;
+    color: black!important;
+} */
+
+.icon-L0f3e > svg{
+    fill: black!important;
+    border: #E50914!important;
+}
+
+.icon-I_g2q{
+    background-color: #E50914!important;
+}
+
+#Default, .add-url-fEacA, .label-wbfsE, .add-button-label-NN6bu, .action-button-eprQG, .label-WCWIO{
+    color: black!important;
+}
+
+.cancel-button-R2AxR > .label-wbfsE{
+    color: #fff!important;
+}
+
+.cancel-button-R2AxR.action-button-eprQG:hover, .see-all-container-MoOtW:hover{
+    background-color: black!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.toggle-container-lZfHP.checked > .toggle-toOWM{
+    background-color: var(--red)!important;
+}
+
+.multiselect-button-XXdgA, .multiselect-menu-qMdaj{
+    border-radius: 0!important;
+    outline: none!important;
+}
+
+.button-DNmYL.button-container-zVLH6{
+    border-radius: 0!important;
+    margin-bottom: 0;
+}
+
+.button-DNmYL.selected-S7SeK{
+    background-color: transparent!important;
+
+}
+
+.button-DNmYL:hover, .button-DNmYL.selected-S7SeK:focus{
+    background-color: transparent!important;
+    color: #ffffff!important;
+}
+
+.add-url-fEacA > .icon-L0f3e > path, .add-button-container-SkafT > .icon-HsyZS > path, .configure-button-container-VwVAQ > .icon-GxVbY > path, .wide > .icon-container-rQBA0 > .icon-RouVG > path{
+    fill: black;
+    filter: invert();
+}
+
+.add-url-fEacA{
+    animation: none!important;
+}
+
+.add-url-fEacA:hover, .add-button-container-SkafT:hover, .action-button-eprQG:hover{
+    background-color: #fff!important;
+}
+
+.ready-VKkmT{
+    background-color: rgb(34, 179, 101)!important;
+}
+
+.icon-rAZvO > path{
+    filter: hue-rotate(10deg)!important;
+    background-color: red!important;
+}
+
+.icon-rAZvO{
+    color: black!important;
+}
+
+.seek-bar-I7WeY > .slider-hBDOf > .layer-aC5Vt > .thumb-PiTF5, .seek-bar-I7WeY > .slider-hBDOf > .layer-aC5Vt > .thumb-PiTF5::after, .seek-bar-I7WeY > .slider-hBDOf > .layer-aC5Vt > .track-before-kJzIb, .seek-bar-I7WeY > .slider-hBDOf > .layer-aC5Vt > .track-after-pUXC0{
+    background-color: #E50914!important;
+    outline: #E50914!important;
+    border: #E50914!important;
+    box-shadow: none!important;
+}
+
+.side-drawer-button-layer-RrB8k{
+    display: none;
+    visibility: hidden;
+}
+
+.show-button-_yuOF{
+    background-color: #fff!important;
+    color: black!important;
+}
+
+.chip-L3r9A.active-jnhyP.button-container-zVLH6{
+    background-color: #fff!important;
+    color: black!important;
+}
+
+.logo-oPx1q{ /*TODO: make the aligning better*/
+    filter: hue-rotate(106deg) saturate(2);
+}
+
+/* .logo-container-jteMT::after{
+    content: "";
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    align-items: center;
+    visibility: visible;
+    background-image: url(https://raw.githubusercontent.com/0xA18/nettio-theme/refs/heads/main/media/nettio_symbol.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.today-G8kuO > .heading-TYXvp > .day-nttmc{
+    color: black!important;
+}
+
+.search-bar-h60ja, .item-A9qrP, .add-url-fEacA, .reload-OVkwB, #Deafult{
+    border-radius: 0px!important;
+}
+
+.search-input-IQ0ZW{
+    padding-left: 20px!important;
+}
+
+.menu-container-GcXNG{
+    background-color: rgb(14, 14, 14)!important;
+}
+
+.shortcut-container-iOrn9 > kbd{
+    box-shadow: -2px 4px 0 1px rgb(37, 37, 37);
+}
+
+.menu-container-B6cqK{
+    box-shadow: none!important;
+    border: 0.5px solid #383838;
+}
+
+.avatar-container-f6ino{
+    background-image: url(https://i.pinimg.com/564x/1b/a2/e6/1ba2e6d1d4874546c70c91f1024e17fb.jpg)!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 0!important;
+}
