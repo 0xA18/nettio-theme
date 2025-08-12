@@ -1,7 +1,7 @@
 /**
     * @name Netflix
     * @description Based on Neflix's UI
-    * @version 0.1
+    * @version 0.2
     * @updateUrl https://raw.githubusercontent.com/0xA18/nettio-theme/refs/heads/main/media/update.txt
     * @author a18 corp.
     */
@@ -34,7 +34,7 @@
     font-family: netflix-sans;
 }
 
-.horizontal-nav-bar-ji5GB, .nav-menu-container-Pl25j, .modal-dialog-background-vZpB_, .modal-dialog-container-DZMKq, .dropdown-MWaxp, .vertical-nav-bar-qGRze, .board-content-nPWv1, .catalog-container-VNK_T, .library-content-PgX4O, .content-wBwrQ, .settings-content-co5eU, .background-image-layer-kk_WI, .background-image-9zToE, .meta-preview-container-CoWs5, .router-_65XU{
+.horizontal-nav-bar-ji5GB, .nav-menu-container-Pl25j, .context-menu-content-ItIFy, .modal-dialog-background-vZpB_, .modal-dialog-container-DZMKq, .dropdown-MWaxp, .vertical-nav-bar-qGRze, .board-content-nPWv1, .catalog-container-VNK_T, .library-content-PgX4O, .content-wBwrQ, .settings-content-co5eU, .background-image-layer-kk_WI, .background-image-9zToE, .meta-preview-container-CoWs5, .router-_65XU{
     background-color: black!important;
     box-shadow: none!important;
 }
@@ -112,7 +112,7 @@
     background-color: #E50914!important;
 }
 
-#Default, .add-url-fEacA, .label-wbfsE, .add-button-label-NN6bu, .action-button-eprQG, .label-WCWIO{
+#Default, .add-url-fEacA, .label-wbfsE, .add-button-label-NN6bu, .action-button-eprQG, .discover-content-CRsRg > .meta-preview-container-CoWs5 > .action-buttons-container-XbKVa > .wide > .label-container-xslEF > .label-WCWIO{
     color: black!important;
 }
 
@@ -150,7 +150,7 @@
     color: #ffffff!important;
 }
 
-.add-url-fEacA > .icon-L0f3e > path, .add-button-container-SkafT > .icon-HsyZS > path, .configure-button-container-VwVAQ > .icon-GxVbY > path, .wide > .icon-container-rQBA0 > .icon-RouVG > path{
+.add-url-fEacA > .icon-L0f3e > path, .add-button-container-SkafT > .icon-HsyZS > path, .configure-button-container-VwVAQ > .icon-GxVbY > path,.discover-content-CRsRg > .meta-preview-container-CoWs5 > .action-buttons-container-XbKVa > .wide > .icon-container-rQBA0 > .icon-RouVG > path{
     fill: black;
     filter: invert();
 }
@@ -198,7 +198,7 @@
     color: black!important;
 }
 
-.logo-oPx1q{ /*TODO: make the aligning better*/
+.logo-oPx1q{
     filter: hue-rotate(106deg) saturate(2);
 }
 
